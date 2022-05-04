@@ -53,3 +53,25 @@ TODO
 
 Apache-2.0
 
+#### How to install
+
+* Clone & Install
+
+```sh
+git clone ...........
+cd OSS_05_04_22
+pip3 install -r requirements.txt
+```
+
+* Append a python path to `~/.bashrc` file.
+
+```sh
+~$ cat >> ~/.bashrc
+Export PYTHONPATH=$PYTHONPATH:/home/u1017/
+Ctrl+d
+
+~$ source ~/.bashrc
+```
+
+* Install MongoDB >= 5.0.7
+
